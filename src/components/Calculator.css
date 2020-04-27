@@ -1,0 +1,21 @@
+.calculator {
+    margin: 1em;
+	display: inline-flex;
+	flex-direction: column;
+	border: 1px solid #444;
+	padding: 1.65em;
+    background: #555;
+}
+
+.key-row.key-c .key-button {
+    display: block;
+    width: 95.9%;
+}
+.key-row.key-c .key-button:hover,
+.key-row.key-c .key-button:active,
+.key-row.key-c .key-button:focus {
+    color: #F7D358;
+    border-color: #F7D358;
+    background: #555;
+    box-shadow: 0px 0px 3px #ccc, 0px 0px 3px #555;
+}
